@@ -13,14 +13,14 @@ body{
 .flexContainer{
     display: flex;
     flex-direction: row;
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     align-items: center;
-    background-color: rgb(255, 246, 201);
+    background-color: ivory;
 }
 
 .flexItem2{
-    background-color: rgb(255, 246, 201);
+    background-color: ivory;
     padding: 10px;
     flex: 50%;
 }
@@ -44,4 +44,42 @@ body{
     .flexContainer{
         flex-direction: column;
     }
+}
+
+.topNav {
+    overflow: hidden;
+    background-color: peru;
+}
+
+.topNav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topNavRight {
+    float: right;
+}
+
+.topNav a:hover {
+    background-color: rgb(243, 241, 237);
+    color: black;
+}
+
+.topNav a.active {
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.flexItem1 {
+    align-items: center;
 }
